@@ -1,0 +1,36 @@
+/* Add padding to all of the .container child elements */
+.navcontainer > * {
+    padding: 20px;
+  }
+  .navcontainer {
+    color: rgb(9, 9, 9);
+    font-family: "Times New Roman", Times, Serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    max-width: 1000px;
+  }
+
+.navbar{background: rgb(132, 132, 151);
+    order: 1;
+    flex: 1 1 100%;
+    display:flex;
+    justify-content:space-around; 
+}
+
+.navbar li {
+    margin: 30px 20px; /* Space between menu items */
+}
+
+.navbox > * {
+    border: 2px hidden;
+    border-radius: 10px;
+    margin: 30px 20px;
+    
+  }
+  
+.navbox {
+    justify-content:space-around;
+    display: flex;
+    margin: 30px 20px;
+  }
