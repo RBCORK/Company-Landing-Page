@@ -23,18 +23,26 @@
 
     </head>
 <body>
+    
     <navbar id="navbar">
-        <div class="navcontainer">
+        <div class="container">
         <nav>
+
             <div class="navbox">
                 
-                <div class="text-hover"><a href="#aboutme">About Me</a></div>
+                <div class="text-hover"><a href="#hero">Call to action</a></div>
            
-                <div class="text-hover"><a href="#skills">Skills</a></div>
+                <div class="text-hover"><a href="#about">About</a></div>
             
-                <div class="text-hover"><a href="#projects">Projects</a></div>
+                <div class="text-hover"><a href="#services">Services</a></div>
            
                 <div class="text-hover"><a href="#contact">Contact Info</a></div>
+
+                 
+            <div class="navbar-brand" href="profile.img">
+                <img src="greycompany.jpg" alt="Logo" class="profile.img">
+            </div>
+
             </div>
             
         </nav>
@@ -43,15 +51,107 @@
     </navbar>
 
     <header>
-
+        <hero id="hero">
+        <div class="hero">
+            <h1>Join the Grey Company on its ride through Dunarrow!</h1>
+        </div>
+        </hero>
     </header>
 
     <main>
+        <about id="about">
+        <div class="about"> 
+            <h2>About the Grey Company</h2>
+            <p>We are Dunedain, last remnants of the line of numenor and blessed with long life. Forced into exile after the kingdom of Arnor
+                fell to the Witch King of Angmar in an age long past, we travel the land protecting it from the growing evil of the east.
+            </p>
 
+        </div>
+        </about>
+        
+        <services id="services">
+        <div class="services">
+            <h2>Services</h2>
+            <div class="cards">
+                <article class="card">
+                  <header>
+                    <h3>Harrowing Marches!</h3>
+                  </header>
+              
+                  <img
+                    src="march.jpg"
+                    alt="March" />
+                  <div class="content">
+                    <p>
+                      Whether its hunting orcs or recruiting zombies, we don't rest until the job is done!
+                    </p>
+                  </div>
+                </article>
+              
+                <article class="card">
+                  <header>
+                    <h3>Luxury Cruises</h3>
+                  </header>
+              
+                  <img
+                    src="ships.jpg"
+                    alt="Ships" />
+                  <div class="content">
+                    <p>We've got to make it to Pelagir somehow, please note the cruises are not actually luxurious.</p>
+                  </div>
+                </article>
+              
+                <article class="card">
+                  <header>
+                    <h3>Seeing the Shire</h3>
+                  </header>
+              
+                  <img
+                    src="shire.jpg"
+                    alt="Shire" />
+                  <div class="content">
+                    <p>
+                      "Patrolling" may be a more accurate term, but it's a beautiful country nevertheless
+                    </p>
+                  </div>
+              
+                  
+                </article>
+                <article class="card">
+                  <header>
+                    <h3>Free Rations</h3>
+                  </header>
+              
+                  <img
+                    src="bread.jpg"
+                    alt="Bread" />
+                  <div class="content">
+                    <p>
+                      Meats on the menu! No maggoty bread for 3 stinkin days!
+                    </p>
+                  </div>
+                </article>
+              </div>
+
+        </div>
+        </services>
     </main>
 
     <footer>
-
+        <contact id="contact">
+        <div class="contact">
+            <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4"></textarea><br><br>
+            <button type="submit">Send</button>
+        </form>
+        </div>
+        </contact>
     </footer>
 
 </body>
